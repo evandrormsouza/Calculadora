@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+fieldset{
+    height: 60vh ;
+    width: 60vw;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.517);
+}
+
+fieldset>input{
+    outline: none;
+}
+
+.info-flex {
+    /* responsável por realizar a estilização do formulário */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+    button{
+        background-color: #fff;
+        width: 120px;
+        height: 30px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: #eee;
+
+    }
